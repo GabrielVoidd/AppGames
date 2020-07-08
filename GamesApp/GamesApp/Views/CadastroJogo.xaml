@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.CadastroJogo">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Entry x:Name="nameEntry"
+                   Placeholder="Digite o nome do jogo" />
+            
+            <Entry x:Name="producerEntry"
+                   Placeholder="Digite o nome da produtora do jogo" />
+
+            <Entry x:Name="genreEntry"
+                   Placeholder="Digite o gênero do jogo" />
+
+            <Button Text="Cadastrar"
+                    Clicked="OnButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

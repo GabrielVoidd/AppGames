@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.ListagemJogos">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         Padding="30">
+                <Label Text="Jogo"
+                       FontSize="25"
+                       HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="Produtora"
+                       FontSize="25"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Genero"
+                       FontSize="25"
+                       HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Margin="20,35,20,20">
+                <ListView x:Name="listView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Nome}"
+                                           HorizontalOptions="StartAndExpand"
+                                           FontSize="15"/>
+                                    
+                                    <Label Text="{Binding Produtora}"
+                                           HorizontalOptions="CenterAndExpand"
+                                           FontSize="15"/>
+                                    
+                                    <Label Text="{Binding Genero}"
+                                           HorizontalOptions="EndAndExpand"
+                                           FontSize="15"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

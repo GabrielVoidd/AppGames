@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gnY5B9c9Q44J3bKbamjBC18ZGfAtZiOw+xAOzBiUFOVU79g/UXWpmo8YCaaffnBTTrK0K71/YYCdU34KOivzZQ==",
+  "dgSpecHash": "WqE7vQindig3a0/N33bg8H+CJAAcbh2A/IaTgaEYq/P7hGjNvXZvKRS/8UNVfzK/kSrCEFhnj4WJSy2KIvxBeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\souza\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\souza\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.Sobre">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Aqua">
+                <Image Source="WhiteMenu.png"
+                       HeightRequest="40"
+                       WidthRequest="40"/>
+            </StackLayout>
+            
+            <!--- Aqui vai ficar a imagem do logo do APP -->
+            <StackLayout>
+                <Image Source="facebook.png"
+                       HeightRequest="120"
+                       WidthRequest="120"
+                       Margin="0,30,0,0"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="TEXTO SOBRE O APP..................................."
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Margin="0,70,0,0"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="EndAndExpand">
+                <Image Source="facebook.png"
+                       WidthRequest="50"
+                       HeightRequest="50"
+                       Margin="45,0,0,0"/>
+
+                <Image Source="instagram.png"
+                       WidthRequest="50"
+                       HeightRequest="50"
+                       HorizontalOptions="EndAndExpand"
+                       Margin="0,0,55,0"
+                       />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="AppGames.com/fb"
+                       Margin="10,0,0,0"/>
+
+                <Label Text="AppGames.instagram"
+                       HorizontalOptions="EndAndExpand"
+                       Margin="0,0,10,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

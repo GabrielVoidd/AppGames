@@ -6,18 +6,33 @@
              mc:Ignorable="d"
              x:Class="GamesApp.Views.CadastroJogo">
     <ContentPage.Content>
-        <StackLayout Margin="20,35,20,20">
-            <Entry x:Name="nameEntry"
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Aqua">
+                <Image Source="WhiteMenu.png"
+                       HeightRequest="40"
+                       WidthRequest="40"/>
+            </StackLayout>
+            <StackLayout>
+                <Image Source="videogame.png"
+                       Margin="0,40,0,0"
+                       HeightRequest="70"
+                       WidthRequest="70"/>
+            </StackLayout>
+            <StackLayout Margin="20,35,20,20"
+                         Spacing="20">
+                <Entry x:Name="nameEntry"
                    Placeholder="Digite o nome do jogo" />
-            
-            <Entry x:Name="producerEntry"
+
+                <Entry x:Name="producerEntry"
                    Placeholder="Digite o nome da produtora do jogo" />
 
-            <Entry x:Name="genreEntry"
+                <Entry x:Name="genreEntry"
                    Placeholder="Digite o gênero do jogo" />
 
-            <Button Text="Cadastrar"
+                <Button Text="Cadastrar"
                     Clicked="OnButtonClicked" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

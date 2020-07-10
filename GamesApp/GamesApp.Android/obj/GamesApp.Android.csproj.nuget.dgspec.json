@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj": {}
+    "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj": {
+    "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
         "projectName": "GamesApp.Android",
-        "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
+        "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
         "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\GamesApp.csproj": {
-                "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\GamesApp.csproj"
+              "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
+                "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\GamesApp.csproj": {
+    "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\GamesApp.csproj",
+        "projectUniqueName": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
         "projectName": "GamesApp",
-        "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\GamesApp.csproj",
+        "projectPath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
         "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souza\\Desktop\\projeto\\GamesApp\\GamesApp\\obj\\",
+        "outputPath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

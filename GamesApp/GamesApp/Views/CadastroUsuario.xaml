@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.CadastroUsuario">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Aqua">
+                <Image Source="WhiteMenu.png"
+                       HeightRequest="40"
+                       WidthRequest="40"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="person.png"
+                       Margin="0,40,0,0"/>
+            </StackLayout>
+
+            <StackLayout Padding="40"
+                         Spacing="50">
+                <Entry Placeholder="Nome"/>
+
+                <Entry Placeholder="Usuário"/>
+
+                <Entry Placeholder="Senha"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Button Text="Cadastrar"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        CornerRadius="10"
+                        WidthRequest="130"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

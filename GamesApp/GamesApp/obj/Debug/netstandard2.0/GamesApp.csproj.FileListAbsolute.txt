@@ -32,3 +32,6 @@ C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\GamesApp.pdb
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\Views\CadastroUsuario.xaml.g.cs
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\Views\Sobre.xaml.g.cs
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\Views\PrincipalAdmin.xaml.g.cs
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\Views\PrincipalUsuario.xaml.g.cs
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp\obj\Debug\netstandard2.0\Views\ListagemUsuarios.xaml.g.cs

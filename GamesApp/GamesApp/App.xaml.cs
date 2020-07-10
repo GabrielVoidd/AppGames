@@ -27,7 +27,7 @@ namespace GamesApp
         {
             InitializeComponent();
 
-            MainPage = new Sobre();
+            MainPage = new ListagemUsuarios();
         }
 
         protected override void OnStart()

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.PrincipalAdmin">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         BackgroundColor="Aqua">
+                <Image Source="WhiteMenu.png"
+                       HeightRequest="40"
+                       WidthRequest="40"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="coroa.png"
+                       WidthRequest="140"
+                       HeightRequest="140"
+                       Margin="0,40,0,0"/>
+            </StackLayout>
+
+            <StackLayout Spacing="20">
+                <Button Text="Cadastrar usuário"
+                        Margin="0,20,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"/>
+
+                <Button Text="Listar usuários"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"/>
+
+                <Button Text="Cadastrar jogo"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"/>
+
+                <Button Text="Listar jogos"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"/>
+            </StackLayout>
+        </StackLayout>    
+    </ContentPage.Content>
+</ContentPage>

@@ -971,3 +971,6 @@ C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\s
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\res\drawable\videogame.png
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\res\drawable\garoto.png
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\res\drawable\coroa.png
+C:\Users\souza\Desktop\projeto\AppGames\GamesApp\GamesApp.Android\obj\Debug\90\res\drawable\grupo.png

@@ -13,25 +13,36 @@
                        HeightRequest="40"
                        WidthRequest="40"/>
             </StackLayout>
+            
             <StackLayout>
                 <Image Source="videogame.png"
-                       Margin="0,40,0,0"
+                       Margin="0,20,0,0"
                        HeightRequest="70"
                        WidthRequest="70"/>
             </StackLayout>
+            
             <StackLayout Margin="20,35,20,20"
                          Spacing="20">
                 <Entry x:Name="nameEntry"
-                   Placeholder="Digite o nome do jogo" />
+                       Placeholder="Digite o nome do jogo" />
 
                 <Entry x:Name="producerEntry"
-                   Placeholder="Digite o nome da produtora do jogo" />
+                       Placeholder="Digite o nome da produtora do jogo" />
 
                 <Entry x:Name="genreEntry"
-                   Placeholder="Digite o gênero do jogo" />
+                       Placeholder="Digite o gênero do jogo" />
 
                 <Button Text="Cadastrar"
-                    Clicked="OnButtonClicked" />
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="130"
+                        CornerRadius="10"/>
+
+                <!--- Botao para voltar a tela principal do administrador -->
+                <Button Text="Voltar"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="130"
+                        CornerRadius="10"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

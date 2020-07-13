@@ -21,28 +21,41 @@
                        FontSize="25"
                        HorizontalOptions="EndAndExpand"/>
             </StackLayout>
-            <StackLayout Margin="20,35,20,20">
+            
+            <StackLayout Margin="20,15,20,20">
                 <ListView x:Name="listView">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal">
                                     <Label Text="{Binding Nome}"
-                                           HorizontalOptions="StartAndExpand"
-                                           FontSize="15"/>
+                                           HorizontalOptions="Start"
+                                           FontSize="15"
+                                           Margin="15,0,0,0"/>
                                     
                                     <Label Text="{Binding Produtora}"
-                                           HorizontalOptions="CenterAndExpand"
-                                           FontSize="15"/>
+                                           HorizontalOptions="Center"
+                                           FontSize="15"
+                                           Margin="30,0,0,0"/>
                                     
                                     <Label Text="{Binding Genero}"
-                                           HorizontalOptions="EndAndExpand"
-                                           FontSize="15"/>
+                                           HorizontalOptions="End"
+                                           FontSize="15"
+                                           Margin="40,0,0,0"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+            </StackLayout>
+
+            <StackLayout>
+                <!--- Botão que vai voltar para a tela principal do usuário ou do administrador -->
+                <Button Text="Voltar"
+                        CornerRadius="10"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="100"
+                        Margin="0,0,0,20"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

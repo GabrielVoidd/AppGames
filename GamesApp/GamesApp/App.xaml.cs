@@ -23,11 +23,23 @@ namespace GamesApp
             }
         }
 
+        public static Database BancoDados
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "usuario.db3"));
+                }
+                return database;
+            }
+        }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new ListagemJogos();
+            MainPage = new Sobre();
         }
 
         protected override void OnStart()

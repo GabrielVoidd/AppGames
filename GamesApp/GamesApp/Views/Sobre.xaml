@@ -16,9 +16,9 @@
             
             <!--- Aqui vai ficar a imagem do logo do APP -->
             <StackLayout>
-                <Image Source="facebook.png"
-                       HeightRequest="120"
-                       WidthRequest="120"
+                <Image Source="WSTowers.png"
+                       HeightRequest="60"
+                       WidthRequest="60"
                        Margin="0,30,0,0"/>
             </StackLayout>
 

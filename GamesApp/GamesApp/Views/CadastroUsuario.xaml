@@ -21,11 +21,14 @@
 
             <StackLayout Padding="40"
                          Spacing="20">
-                <Entry Placeholder="Nome"/>
+                <Entry Placeholder="Nome"
+                       x:Name="entryNome"/>
 
-                <Entry Placeholder="Usuário"/>
+                <Entry Placeholder="Nickname"
+                       x:Name="entryNickname"/>
 
-                <Entry Placeholder="Senha"/>
+                <Entry Placeholder="Senha"
+                       x:Name="entrySenha"/>
             </StackLayout>
 
             <StackLayout>
@@ -33,7 +36,8 @@
                         VerticalOptions="Center"
                         HorizontalOptions="Center"
                         CornerRadius="10"
-                        WidthRequest="130"/>
+                        WidthRequest="130"
+                        Clicked="ButtonClicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

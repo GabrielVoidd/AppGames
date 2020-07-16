@@ -14,14 +14,23 @@
                        Margin="0,40,0,0"/>
             </StackLayout>
 
-            <!--<ListView>
+            <ListView x:Name="listView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding Nome}"
-                                  Detail="{Binding Usuario}"/>
+                                  Detail="{Binding Nickname}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>-->
+            </ListView>
+
+            <StackLayout>
+                <!--- Botão que vai voltar para a tela principal do administrador -->
+                <Button Text="Voltar"
+                        CornerRadius="10"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="100"
+                        Margin="0,0,0,20"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

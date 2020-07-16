@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVRz2p1nCdgytpzxBQjQy1Ew2ZcjJK4+TIjXkvTs9CRBxXmpsAAYsxvRkByJdEazHbDP4LJOedwPm63tmrBN8Q==",
+  "dgSpecHash": "6LNXnQvaEMEhs5nqu896piJnLFqrtmEeec0YHd5XwMZBeA3UxM5+PPwSvGHAe38+ii0Kkd9JLHu/zz14NK+FpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\souza\\Desktop\\projeto\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
+  "projectFilePath": "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\souza\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\souza\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

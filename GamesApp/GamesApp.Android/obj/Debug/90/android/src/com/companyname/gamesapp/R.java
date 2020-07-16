@@ -4583,6 +4583,7 @@ public final class R {
     public static final int tooltip_frame_light=0x7f07007b;
     public static final int videogame=0x7f07007c;
     public static final int whitemenu=0x7f07007d;
+    public static final int wstowers=0x7f07007e;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,7 +29,6 @@ namespace GamesApp.Views
                 });
 
                 nameEntry.Text = producerEntry.Text = genreEntry.Text = string.Empty;
-                //listView.ItemsSource = await App.Database.GetJogoAsync();
             }
         }
     }

@@ -8380,6 +8380,9 @@ namespace GamesApp.Droid
 			// aapt resource value: 0x7F07007D
 			public const int WhiteMenu = 2131165309;
 			
+			// aapt resource value: 0x7F07007E
+			public const int WSTowers = 2131165310;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

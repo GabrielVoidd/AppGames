@@ -13,6 +13,7 @@ namespace GamesApp.Models
         {
             _database = new SQLiteAsyncConnection(dbPath);
             _database.CreateTableAsync<Jogo>().Wait();
+            _database.CreateTableAsync<Usuario>().Wait();
         }
 
         public Task<List<Jogo>> GetJogoAsync()
@@ -23,6 +24,16 @@ namespace GamesApp.Models
         public Task<int> SaveJogoAsync(Jogo jogo)
         {
             return _database.InsertAsync(jogo);
+        }
+
+        public Task<List<Usuario>> GetUsuarioAsync()
+        {
+            return _database.Table<Usuario>().ToListAsync();
+        }
+
+        public Task<int> SaveUsuarioAsync(Usuario usuario)
+        {
+            return _database.InsertAsync(usuario);
         }
     }
 }

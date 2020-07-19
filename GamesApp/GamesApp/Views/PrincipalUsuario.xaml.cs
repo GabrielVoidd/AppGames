@@ -16,5 +16,23 @@ namespace GamesApp.Views
         {
             InitializeComponent();
         }
+
+        private async void Click_ListagemJogos(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListagemJogos());
+
+        }
+
+
+        private async void Click_Sobre(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Sobre());
+
+        } 
+        
+        private async void Click_Logout(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new LoginPage());
+        }
     }
 }

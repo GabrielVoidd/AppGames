@@ -50,12 +50,7 @@
             </StackLayout>
 
             <StackLayout>
-                <!--- Botão que vai voltar para a tela principal do usuário ou do administrador -->
-                <Button Text="Voltar"
-                        CornerRadius="10"
-                        HorizontalOptions="CenterAndExpand"
-                        WidthRequest="100"
-                        Margin="0,0,0,20"/>
+             
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

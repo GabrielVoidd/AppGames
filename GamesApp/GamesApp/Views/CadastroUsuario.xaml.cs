@@ -18,6 +18,8 @@ namespace GamesApp.Views
             InitializeComponent();
         }
 
+        public bool isAdmin { get; set; }
+        
         async void ButtonClicked(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(entryNome.Text) && !string.IsNullOrWhiteSpace(entryNickname.Text) && !string.IsNullOrWhiteSpace(entrySenha.Text))
@@ -26,11 +28,20 @@ namespace GamesApp.Views
                 {
                     Nome = entryNome.Text,
                     Nickname = entryNickname.Text,
-                    Senha = entrySenha.Text
+                    Senha = entrySenha.Text,
+                    IsAdmin = isAdmin
                 });
 
                 entryNome.Text = entryNickname.Text = entrySenha.Text = string.Empty;
             }
+        }
+
+   
+
+        private void CheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            isAdmin = e.Value;
+
         }
     }
 }

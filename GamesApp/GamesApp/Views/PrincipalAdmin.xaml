@@ -7,12 +7,7 @@
              x:Class="GamesApp.Views.PrincipalAdmin">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Aqua">
-                <Image Source="WhiteMenu.png"
-                       HeightRequest="40"
-                       WidthRequest="40"/>
-            </StackLayout>
+
 
             <StackLayout>
                 <Image Source="coroa.png"
@@ -26,23 +21,48 @@
                         Margin="0,20,0,0"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="180"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_CadastrarUsuario"
+                        />
 
                 <Button Text="Listar usuários"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="180"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_ListarUsuario"
+                        />
 
                 <Button Text="Cadastrar jogo"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="180"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_CadastrarJogo"
+                        />
 
                 <Button Text="Listar jogos"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="180"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_ListarJogo"
+                        />
+
+
+
+                <Button Text="Sobre"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"
+                        Clicked="Click_Sobre"
+                        />
+                <Button Text="Logout"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="180"
+                        CornerRadius="10"
+                        Clicked="Click_Logout"
+                        />
+
+
             </StackLayout>
-        </StackLayout>    
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

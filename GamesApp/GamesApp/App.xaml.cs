@@ -3,7 +3,6 @@ using GamesApp.Views;
 using System;
 using System.IO;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace GamesApp
 {
@@ -39,7 +38,8 @@ namespace GamesApp
         {
             InitializeComponent();
 
-            MainPage = new Sobre();
+            MainPage = new NavigationPage(new Spash());
+            NavigationDispatcher.Instance.Initialize(MainPage.Navigation);
         }
 
         protected override void OnStart()

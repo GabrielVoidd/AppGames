@@ -7,12 +7,6 @@
              x:Class="GamesApp.Views.CadastroJogo">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Aqua">
-                <Image Source="WhiteMenu.png"
-                       HeightRequest="40"
-                       WidthRequest="40"/>
-            </StackLayout>
             
             <StackLayout>
                 <Image Source="videogame.png"
@@ -38,11 +32,6 @@
                         WidthRequest="130"
                         CornerRadius="10"/>
 
-                <!--- Botao para voltar a tela principal do administrador -->
-                <Button Text="Voltar"
-                        HorizontalOptions="CenterAndExpand"
-                        WidthRequest="130"
-                        CornerRadius="10"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

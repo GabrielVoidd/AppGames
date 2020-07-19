@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {}
+    "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
+    "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
+        "projectUniqueName": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
         "projectName": "GamesApp",
-        "projectPath": "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
-        "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souza\\Desktop\\ki\\AppGames\\GamesApp\\GamesApp\\obj\\",
+        "projectPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
+        "packagesPath": "C:\\Users\\Momoh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Momoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,6 +42,18 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MVVMCoffee": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.16, )"
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -7,12 +7,7 @@
              x:Class="GamesApp.Views.Sobre">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Aqua">
-                <Image Source="WhiteMenu.png"
-                       HeightRequest="40"
-                       WidthRequest="40"/>
-            </StackLayout>
+         
             
             <!--- Aqui vai ficar a imagem do logo do APP -->
             <StackLayout>

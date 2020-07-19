@@ -7,12 +7,7 @@
              x:Class="GamesApp.Views.CadastroUsuario">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Aqua">
-                <Image Source="WhiteMenu.png"
-                       HeightRequest="40"
-                       WidthRequest="40"/>
-            </StackLayout>
+        
 
             <StackLayout>
                 <Image Source="person.png"
@@ -28,7 +23,17 @@
                        x:Name="entryNickname"/>
 
                 <Entry Placeholder="Senha"
-                       x:Name="entrySenha"/>
+                       x:Name="entrySenha"
+                       IsPassword="true" />
+
+                <Label Text="É administrador?"
+                       FontSize="16"
+                       HorizontalOptions="Start"/>
+                <CheckBox
+                  Color="Blue"  
+                  CheckedChanged="CheckBox_CheckedChanged"
+                    HorizontalOptions="Start"/>
+             
             </StackLayout>
 
             <StackLayout>

@@ -7,12 +7,7 @@
              x:Class="GamesApp.Views.PrincipalUsuario">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="Aqua">
-                <Image Source="WhiteMenu.png"
-                       HeightRequest="40"
-                       WidthRequest="40"/>
-            </StackLayout>
+
 
             <StackLayout>
                 <Image Source="garoto.png"
@@ -27,12 +22,22 @@
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="140"
                         Margin="0,50,0,0"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_ListagemJogos"
+                        />
 
-                <Button Text="Ver meus jogos"
+                <Button Text="Sobre"
                         HorizontalOptions="CenterAndExpand"
                         WidthRequest="160"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Clicked="Click_Sobre"
+                        />
+                <Button Text="Logout"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="160"
+                        CornerRadius="10"
+                        Clicked="Click_Logout"
+                        />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

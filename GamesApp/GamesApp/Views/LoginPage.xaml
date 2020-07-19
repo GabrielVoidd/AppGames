@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GamesApp.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Image Source="person.png"
+                       Margin="0,20,0,0"
+                       HeightRequest="70"
+                       WidthRequest="70"/>
+            </StackLayout>
+
+            <StackLayout Margin="20,35,20,20"
+                         Spacing="20">
+
+                <Entry x:Name="producerEntry"
+                       Text="{Binding Path=NickName, Mode=TwoWay}"
+                       Placeholder="Digite seu nickname" />
+
+                <Entry x:Name="genreEntry"
+                       Text="{Binding Path=Password, Mode=TwoWay}"
+                       Placeholder="Digite sua senha"
+                       IsPassword="true" />
+
+                <Button Text="Login"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="130"
+                        CornerRadius="10"
+                        Command="{Binding OnClickLogin}"/>
+                <Label x:Name="error"
+                       Text="{Binding Path=Error, Mode=TwoWay}"
+                        HorizontalOptions="CenterAndExpand"
+                       Margin="0,35,0,0"
+                       />
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

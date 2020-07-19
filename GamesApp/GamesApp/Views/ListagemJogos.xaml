@@ -17,7 +17,7 @@
                        FontSize="25"
                        HorizontalOptions="CenterAndExpand"/>
 
-                <Label Text="Genero"
+                <Label Text="Gênero"
                        FontSize="25"
                        HorizontalOptions="EndAndExpand"/>
             </StackLayout>

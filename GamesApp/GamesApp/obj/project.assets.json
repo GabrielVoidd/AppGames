@@ -2804,23 +2804,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Momoh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\souza\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
+      "projectUniqueName": "C:\\documentos\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
       "projectName": "GamesApp",
-      "projectPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
-      "packagesPath": "C:\\Users\\Momoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\obj\\",
+      "projectPath": "C:\\documentos\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj",
+      "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
+      "outputPath": "C:\\documentos\\AppGames\\GamesApp\\GamesApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Momoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

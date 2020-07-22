@@ -3047,24 +3047,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Momoh\\.nuget\\packages\\": {},
+    "C:\\Users\\souza\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
+      "projectUniqueName": "C:\\documentos\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
       "projectName": "GamesApp.Android",
-      "projectPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Momoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp.Android\\obj\\",
+      "projectPath": "C:\\documentos\\AppGames\\GamesApp\\GamesApp.Android\\GamesApp.Android.csproj",
+      "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
+      "outputPath": "C:\\documentos\\AppGames\\GamesApp\\GamesApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Momoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3078,8 +3078,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
-              "projectPath": "C:\\Users\\Momoh\\Desktop\\Senai\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj"
+            "C:\\documentos\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj": {
+              "projectPath": "C:\\documentos\\AppGames\\GamesApp\\GamesApp\\GamesApp.csproj"
             }
           }
         }
